@@ -83,7 +83,7 @@ select count(*) from usuarios_lenguajes where lenguaje = "CSS" and edad < 30
 
 
 -- Ejercicio 21: Seleccionar los usuarios que tienen al menos un lenguaje asociado y mostrar la cantidad de lenguajes que tienen.
--- Tu respuesta aquí
+XX
 
 
 -- Ejercicio 22: Encontrar el lenguaje con más caracteres.
@@ -91,11 +91,11 @@ select count(*) from usuarios_lenguajes where lenguaje = "CSS" and edad < 30
 
 
 -- Ejercicio 23: Seleccionar los usuarios y mostrar la concatenación de su nombre y apellido.
--- Tu respuesta aquí
+select concat(nombre, apellido) from usuarios_lenguajes
 
 
 -- Ejercicio 24: Contar cuántos lenguajes diferentes conocen los usuarios mayores de 25 años. 
--- Tu respuesta aquí
+XX
 
 
 -- Ejercicio 25: Seleccionar los usuarios que tienen exactamente la misma edad.
